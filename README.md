@@ -1,3 +1,46 @@
+# Pet Celebrity Lookalike
+
+Find your pet's celebrity look-alike! This web application allows users to upload pictures of their pets and discover which celebrities their pets resemble the most.
+
+## Features
+
+- **Image Upload:** Users can upload pictures of their pets through the user-friendly interface.
+
+- **Celebrity Lookalike Detection:** The application uses a pre-trained machine learning model to compare the features of user-uploaded pet images with features extracted from pictures of celebrities.
+
+- **Results Display:** The application displays the top celebrity look-alikes for the uploaded pet image along with a similarity score.
+
+- **Interactive UI:** Users can scroll or click through different celebrity look-alike suggestions.
+
+## Technologies Used
+
+- **Frontend:** React.
+
+- **Backend:** Node.js, Express, Python.
+
+- **Machine Learning Model:** PyTorch/ResNet18, trained on a dataset of 18,000 pet & celebrity images.
+
+## Usage
+
+1. Open the application in your web browser.
+
+2. Upload a picture of your pet.
+
+3. Click the "Find Celebrity Look-Alike" button.
+
+4. View the celebrity look-alike suggestions along with similarity scores.
+
+5. Interact with the UI to see different suggestions.
+
+## Contributing
+
+If you'd like to contribute to this project, feel free to open an issue or submit a pull request.
+
+## License
+
+See the [LICENSE](https://choosealicense.com/no-permission/) file for details.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

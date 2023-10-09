@@ -1,6 +1,6 @@
-# Pet Celebrity Lookalike
+# [Pet Celebrity Lookalike](https://pet-celebrity-lookalike.netlify.app/)
 
-Find your pet's celebrity look-alike! This web application allows users to upload pictures of their pets and discover which celebrities their pets resemble the most.
+Find your pet's celebrity look-alike! This web application allows users to upload pictures of their pets and discover which celebrities their pets resemble the most. 
 
 ## Features
 

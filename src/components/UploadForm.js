@@ -149,7 +149,8 @@ const UploadForm = () => {
     formData.append('numMatches', numMatches);
 
     try {
-      const url = "http://ec2-18-220-221-154.us-east-2.compute.amazonaws.com:5000/upload"
+      // const url = "http://ec2-18-220-221-154.us-east-2.compute.amazonaws.com:5000/upload"
+      const url ="https://d49tgot8w3.execute-api.us-east-2.amazonaws.com/upload"
       // const url = "http://localhost:5000/upload"
       const response = await axios.post(url, formData, {
         headers: {

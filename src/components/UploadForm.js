@@ -149,7 +149,9 @@ const UploadForm = () => {
     formData.append('numMatches', numMatches);
 
     try {
-      const response = await axios.post('http://localhost:5000/upload', formData, {
+      const url = "http://ec2-18-220-221-154.us-east-2.compute.amazonaws.com:5000/upload"
+      // const url = "http://localhost:5000/upload"
+      const response = await axios.post(url, formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
@@ -164,6 +166,13 @@ const UploadForm = () => {
       alert('Error uploading file:', error)
     }
   };
+
+  const getImageSourcePath = (match) => {
+    if (match.image_path.toLowerCase().includes("celebrities")) {
+      return `dataset/${match.image_path}`;
+    }
+    return `dataset/celebrities/${match.label}/${match.image_path}`;
+  }
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % matches.length);
@@ -194,7 +203,7 @@ const UploadForm = () => {
           {matches.length > 0 && (
             <>
               <Image
-                src={`dataset/celebrities/${matches[currentIndex].label}/${matches[currentIndex].image_path}`}
+                src={getImageSourcePath(matches[currentIndex])}
                 alt={matches[currentIndex].label}
               />
               <p>Name: {matches[currentIndex].label}</p>

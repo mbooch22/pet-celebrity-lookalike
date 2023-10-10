@@ -2,6 +2,10 @@
 
 Find your pet's celebrity look-alike! This web application allows users to upload pictures of their pets and discover which celebrities their pets resemble the most. 
 
+## Demo
+
+- **Backend** is hosted on AWS and sometimes turned off for cost savings. Please see demo [here](https://google.com)
+
 ## Features
 
 - **Image Upload:** Users can upload pictures of their pets through the user-friendly interface.

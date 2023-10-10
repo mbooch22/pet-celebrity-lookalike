@@ -4,7 +4,7 @@ Find your pet's celebrity look-alike! This web application allows users to uploa
 
 ## Demo
 
-- **Backend** is hosted on AWS and sometimes turned off for cost savings. Please see demo [here](https://google.com)
+- **Backend** is hosted on AWS and sometimes turned off for cost savings. Please see demo [here](https://github.com/mbooch22/pet-celebrity-lookalike/blob/main/PetLookAlikeDemo2.mp4)
 
 ## Features
 
